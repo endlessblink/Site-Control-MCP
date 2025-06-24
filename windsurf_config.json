@@ -1,10 +1,10 @@
 {
   "mcp": {
     "servers": {
-      "bina-site-manager": {
+      "site-control-mcp": {
         "command": "node",
         "args": [
-          "/mnt/d/MY PROJECTS/AI/LLM/AI Code Gen/my-builds/Web Dev/Bina-Bekitzur-Main/mcp-servers/site-management/server.js"
+          "D:\\MY PROJECTS\\AI\\LLM\\AI Code Gen\\my-builds\\Web Dev\\Bina-Bekitzur-Main\\Site-Control-MCP-Export\\server.js"
         ],
         "env": {
           "CONTENTFUL_SPACE_ID": "hd99ode6traw",

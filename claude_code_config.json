@@ -3,7 +3,7 @@
     "site-control-mcp": {
       "command": "node",
       "args": [
-        "D:\\MY PROJECTS\\AI\\LLM\\AI Code Gen\\my-builds\\Web Dev\\Bina-Bekitzur-Main\\Site-Control-MCP-Export\\server.js"
+        "/mnt/d/MY PROJECTS/AI/LLM/AI Code Gen/my-builds/Web Dev/Bina-Bekitzur-Main/Site-Control-MCP-Export/server.js"
       ],
       "env": {
         "CONTENTFUL_SPACE_ID": "hd99ode6traw",

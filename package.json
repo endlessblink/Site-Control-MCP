@@ -1,6 +1,7 @@
 {
   "name": "@endlessblink/site-control-mcp",
   "version": "1.0.0",
+  "type": "module",
   "description": "MCP server for managing website content via Contentful CMS - supports AI tools, SEO, and content quality management",
   "main": "server.js",
   "bin": {
