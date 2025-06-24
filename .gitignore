@@ -4,12 +4,23 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Environment
+# Environment & Secrets (NEVER COMMIT)
 .env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+.env.*
+*config*local*.json
+*secrets*.json
+*credentials*.json
+
+# Client-specific configs with real credentials
+claude_desktop_config_local.json
+claude_code_config_local.json
+windsurf_config_local.json
+cursor_config_local.json
+
+# Any file containing actual API keys/tokens
+*token*.json
+*key*.json
+*auth*.json
 
 # Logs
 logs
@@ -42,3 +53,13 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.temp
+
+# Security-sensitive files
+local-*.json
+private-*.json
+production-*.json
+
+# Backup files with potential secrets
+*.bak
+*.backup
+*_backup.*

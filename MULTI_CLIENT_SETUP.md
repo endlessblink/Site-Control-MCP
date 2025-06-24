@@ -60,7 +60,7 @@ git push
         "/absolute/path/to/bina-bekitzur/mcp-servers/site-management/server.js"
       ],
       "env": {
-        "CONTENTFUL_SPACE_ID": "hd99ode6traw",
+        "CONTENTFUL_SPACE_ID": "your_space_id_here",
         "CONTENTFUL_DELIVERY_TOKEN": "your_delivery_token_here",
         "CONTENTFUL_MANAGEMENT_TOKEN": "your_management_token_here",
         "CONTENTFUL_ENVIRONMENT": "master"
@@ -90,7 +90,7 @@ git push
           "./mcp-servers/site-management/server.js"
         ],
         "env": {
-          "CONTENTFUL_SPACE_ID": "hd99ode6traw",
+          "CONTENTFUL_SPACE_ID": "your_space_id_here",
           "CONTENTFUL_DELIVERY_TOKEN": "your_delivery_token_here",
           "CONTENTFUL_MANAGEMENT_TOKEN": "your_management_token_here",
           "CONTENTFUL_ENVIRONMENT": "master"
@@ -120,7 +120,7 @@ git push
         "./mcp-servers/site-management/server.js"
       ],
       "env": {
-        "CONTENTFUL_SPACE_ID": "hd99ode6traw",
+        "CONTENTFUL_SPACE_ID": "your_space_id_here",
         "CONTENTFUL_DELIVERY_TOKEN": "your_delivery_token_here",
         "CONTENTFUL_MANAGEMENT_TOKEN": "your_management_token_here",
         "CONTENTFUL_ENVIRONMENT": "master"
@@ -166,12 +166,12 @@ Set these environment variables on your system:
 
 ```bash
 # Windows (in PowerShell as Administrator)
-[Environment]::SetEnvironmentVariable("CONTENTFUL_SPACE_ID", "hd99ode6traw", "User")
+[Environment]::SetEnvironmentVariable("CONTENTFUL_SPACE_ID", "your_space_id_here", "User")
 [Environment]::SetEnvironmentVariable("CONTENTFUL_DELIVERY_TOKEN", "your_token", "User")
 [Environment]::SetEnvironmentVariable("CONTENTFUL_MANAGEMENT_TOKEN", "your_token", "User")
 
 # Linux/Mac (add to ~/.bashrc or ~/.zshrc)
-export CONTENTFUL_SPACE_ID="hd99ode6traw"
+export CONTENTFUL_SPACE_ID="your_space_id_here"
 export CONTENTFUL_DELIVERY_TOKEN="your_token"
 export CONTENTFUL_MANAGEMENT_TOKEN="your_token"
 ```
@@ -180,7 +180,7 @@ export CONTENTFUL_MANAGEMENT_TOKEN="your_token"
 Keep `.env` file in MCP server directory:
 
 ```bash
-CONTENTFUL_SPACE_ID=hd99ode6traw
+CONTENTFUL_SPACE_ID=your_space_id_here
 CONTENTFUL_DELIVERY_TOKEN=your_delivery_token_here
 CONTENTFUL_MANAGEMENT_TOKEN=your_management_token_here
 CONTENTFUL_ENVIRONMENT=master

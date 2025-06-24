@@ -31,9 +31,8 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import dotenv from 'dotenv';
 import contentfulManagement from 'contentful-management';
-import contentful from 'contentful';
+import { createClient as createDeliveryClient } from 'contentful';
 const { createClient } = contentfulManagement;
-const { createClient: createDeliveryClient } = contentful;
 import { glob } from 'glob';
 import yaml from 'yaml';
 

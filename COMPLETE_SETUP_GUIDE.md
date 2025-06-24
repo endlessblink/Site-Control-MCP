@@ -37,7 +37,7 @@ D:\MY PROJECTS\AI\LLM\AI Code Gen\my-builds\Web Dev\Bina-Bekitzur-Main\Site-Cont
         "/mnt/d/MY PROJECTS/AI/LLM/AI Code Gen/my-builds/Web Dev/Bina-Bekitzur-Main/Site-Control-MCP-Export/server.js"
       ],
       "env": {
-        "CONTENTFUL_SPACE_ID": "hd99ode6traw",
+        "CONTENTFUL_SPACE_ID": "your_space_id_here",
         "CONTENTFUL_DELIVERY_TOKEN": "your_delivery_token_here",
         "CONTENTFUL_MANAGEMENT_TOKEN": "your_management_token_here",
         "CONTENTFUL_ENVIRONMENT": "master"
@@ -78,7 +78,7 @@ ls -la "/mnt/d/MY PROJECTS/AI/LLM/AI Code Gen/my-builds/Web Dev/Bina-Bekitzur-Ma
         "D:\\MY PROJECTS\\AI\\LLM\\AI Code Gen\\my-builds\\Web Dev\\Bina-Bekitzur-Main\\Site-Control-MCP-Export\\server.js"
       ],
       "env": {
-        "CONTENTFUL_SPACE_ID": "hd99ode6traw",
+        "CONTENTFUL_SPACE_ID": "your_space_id_here",
         "CONTENTFUL_DELIVERY_TOKEN": "your_delivery_token_here",
         "CONTENTFUL_MANAGEMENT_TOKEN": "your_management_token_here",
         "CONTENTFUL_ENVIRONMENT": "master"
@@ -102,7 +102,7 @@ ls -la "/mnt/d/MY PROJECTS/AI/LLM/AI Code Gen/my-builds/Web Dev/Bina-Bekitzur-Ma
           "D:\\MY PROJECTS\\AI\\LLM\\AI Code Gen\\my-builds\\Web Dev\\Bina-Bekitzur-Main\\Site-Control-MCP-Export\\server.js"
         ],
         "env": {
-          "CONTENTFUL_SPACE_ID": "hd99ode6traw",
+          "CONTENTFUL_SPACE_ID": "your_space_id_here",
           "CONTENTFUL_DELIVERY_TOKEN": "your_delivery_token_here",
           "CONTENTFUL_MANAGEMENT_TOKEN": "your_management_token_here",
           "CONTENTFUL_ENVIRONMENT": "master"
@@ -126,7 +126,7 @@ ls -la "/mnt/d/MY PROJECTS/AI/LLM/AI Code Gen/my-builds/Web Dev/Bina-Bekitzur-Ma
         "D:\\MY PROJECTS\\AI\\LLM\\AI Code Gen\\my-builds\\Web Dev\\Bina-Bekitzur-Main\\Site-Control-MCP-Export\\server.js"
       ],
       "env": {
-        "CONTENTFUL_SPACE_ID": "hd99ode6traw",
+        "CONTENTFUL_SPACE_ID": "your_space_id_here",
         "CONTENTFUL_DELIVERY_TOKEN": "your_delivery_token_here",
         "CONTENTFUL_MANAGEMENT_TOKEN": "your_management_token_here",
         "CONTENTFUL_ENVIRONMENT": "master"
@@ -146,14 +146,14 @@ Set these system-wide:
 
 **Windows (PowerShell as Admin)**:
 ```powershell
-[Environment]::SetEnvironmentVariable("CONTENTFUL_SPACE_ID", "hd99ode6traw", "User")
+[Environment]::SetEnvironmentVariable("CONTENTFUL_SPACE_ID", "your_space_id_here", "User")
 [Environment]::SetEnvironmentVariable("CONTENTFUL_DELIVERY_TOKEN", "your_token", "User")
 [Environment]::SetEnvironmentVariable("CONTENTFUL_MANAGEMENT_TOKEN", "your_token", "User")
 ```
 
 **Linux/WSL**:
 ```bash
-echo 'export CONTENTFUL_SPACE_ID="hd99ode6traw"' >> ~/.bashrc
+echo 'export CONTENTFUL_SPACE_ID="your_space_id_here"' >> ~/.bashrc
 echo 'export CONTENTFUL_DELIVERY_TOKEN="your_token"' >> ~/.bashrc
 echo 'export CONTENTFUL_MANAGEMENT_TOKEN="your_token"' >> ~/.bashrc
 source ~/.bashrc
@@ -223,7 +223,7 @@ npm install
 
 ### Issue 4: "Authentication failed"
 **Solution**: Verify Contentful tokens
-- Check space ID: `hd99ode6traw`
+- Check space ID: `your_space_id_here`
 - Verify delivery token has read access
 - Verify management token has write access
 

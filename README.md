@@ -34,6 +34,15 @@ npm install
 ### Method 3: Direct Download
 Download the latest release and extract to your preferred location.
 
+## 🔒 Security Notice
+
+**⚠️ This repository is public!** Never commit actual API keys, tokens, or credentials.
+
+- All config files use placeholder values
+- Copy `local-config-template.json` for your actual setup
+- See `SECURITY.md` for detailed security guidelines
+- Use environment variables for sensitive data
+
 ## ⚙️ Setup
 
 ### 1. Environment Configuration

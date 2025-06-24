@@ -262,7 +262,7 @@ async function checkPricing() {
 
 ## Environment Variables (.env)
 ```bash
-CONTENTFUL_SPACE_ID=hd99ode6traw
+CONTENTFUL_SPACE_ID=your_space_id_here
 CONTENTFUL_DELIVERY_TOKEN=your_delivery_token_here
 CONTENTFUL_MANAGEMENT_TOKEN=your_management_token_here
 CONTENTFUL_ENVIRONMENT=master
