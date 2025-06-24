@@ -1,0 +1,50 @@
+{
+  "name": "@endlessblink/site-control-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for managing website content via Contentful CMS - supports AI tools, SEO, and content quality management",
+  "main": "server.js",
+  "bin": {
+    "site-control-mcp": "./server.js"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "echo \"Test: MCP server connectivity\" && node -e \"console.log('✅ Server ready')\""
+  },
+  "keywords": [
+    "mcp",
+    "contentful",
+    "ai-tools",
+    "site-management",
+    "claude",
+    "model-context-protocol",
+    "content-management",
+    "seo",
+    "website-management",
+    "cms"
+  ],
+  "author": "endlessblink",
+  "license": "MIT",
+  "dependencies": {
+    "contentful": "^11.5.24",
+    "contentful-management": "^11.52.2",
+    "dotenv": "^16.5.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/endlessblink/Site-Control-MCP.git"
+  },
+  "bugs": {
+    "url": "https://github.com/endlessblink/Site-Control-MCP/issues"
+  },
+  "homepage": "https://github.com/endlessblink/Site-Control-MCP#readme",
+  "mcp": {
+    "server": {
+      "name": "site-control-mcp",
+      "version": "1.0.0"
+    }
+  }
+}
